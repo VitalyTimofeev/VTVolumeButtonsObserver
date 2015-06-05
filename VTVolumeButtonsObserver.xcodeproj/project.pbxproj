@@ -11,6 +11,7 @@
 		EDDEF8261B21BF700047CF6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDEF8251B21BF700047CF6E /* AppDelegate.m */; };
 		EDDEF82E1B21BF700047CF6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDEF82D1B21BF700047CF6E /* Images.xcassets */; };
 		EDDEF8471B21C0E10047CF6E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDDEF8461B21C0E10047CF6E /* Default-568h@2x.png */; };
+		EDDEF84B1B21C18E0047CF6E /* VTVolumeButtonsObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDEF84A1B21C18E0047CF6E /* VTVolumeButtonsObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		EDDEF8251B21BF700047CF6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EDDEF82D1B21BF700047CF6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EDDEF8461B21C0E10047CF6E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EDDEF8491B21C18E0047CF6E /* VTVolumeButtonsObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTVolumeButtonsObserver.h; sourceTree = "<group>"; };
+		EDDEF84A1B21C18E0047CF6E /* VTVolumeButtonsObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTVolumeButtonsObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 				EDDEF8241B21BF700047CF6E /* AppDelegate.h */,
 				EDDEF8251B21BF700047CF6E /* AppDelegate.m */,
 				EDDEF82D1B21BF700047CF6E /* Images.xcassets */,
+				EDDEF8481B21C17C0047CF6E /* VTVolumeButtonsObserver */,
 				EDDEF8201B21BF700047CF6E /* Supporting Files */,
 			);
 			path = VTVolumeButtonsObserver;
@@ -69,6 +73,15 @@
 				EDDEF8221B21BF700047CF6E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDDEF8481B21C17C0047CF6E /* VTVolumeButtonsObserver */ = {
+			isa = PBXGroup;
+			children = (
+				EDDEF8491B21C18E0047CF6E /* VTVolumeButtonsObserver.h */,
+				EDDEF84A1B21C18E0047CF6E /* VTVolumeButtonsObserver.m */,
+			);
+			path = VTVolumeButtonsObserver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			files = (
 				EDDEF8261B21BF700047CF6E /* AppDelegate.m in Sources */,
 				EDDEF8231B21BF700047CF6E /* main.m in Sources */,
+				EDDEF84B1B21C18E0047CF6E /* VTVolumeButtonsObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
