@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDDEF8231B21BF700047CF6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDEF8221B21BF700047CF6E /* main.m */; };
+		EDDEF8261B21BF700047CF6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDEF8251B21BF700047CF6E /* AppDelegate.m */; };
+		EDDEF82E1B21BF700047CF6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDEF82D1B21BF700047CF6E /* Images.xcassets */; };
+		EDDEF8471B21C0E10047CF6E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDDEF8461B21C0E10047CF6E /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDDEF81D1B21BF700047CF6E /* VTVolumeButtonsObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTVolumeButtonsObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDEF8211B21BF700047CF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDDEF8221B21BF700047CF6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDDEF8241B21BF700047CF6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDDEF8251B21BF700047CF6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDDEF82D1B21BF700047CF6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDDEF8461B21C0E10047CF6E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDDEF81A1B21BF700047CF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDDEF8141B21BF700047CF6E = {
+			isa = PBXGroup;
+			children = (
+				EDDEF8461B21C0E10047CF6E /* Default-568h@2x.png */,
+				EDDEF81F1B21BF700047CF6E /* VTVolumeButtonsObserver */,
+				EDDEF81E1B21BF700047CF6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDDEF81E1B21BF700047CF6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDDEF81D1B21BF700047CF6E /* VTVolumeButtonsObserver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDDEF81F1B21BF700047CF6E /* VTVolumeButtonsObserver */ = {
+			isa = PBXGroup;
+			children = (
+				EDDEF8241B21BF700047CF6E /* AppDelegate.h */,
+				EDDEF8251B21BF700047CF6E /* AppDelegate.m */,
+				EDDEF82D1B21BF700047CF6E /* Images.xcassets */,
+				EDDEF8201B21BF700047CF6E /* Supporting Files */,
+			);
+			path = VTVolumeButtonsObserver;
+			sourceTree = "<group>";
+		};
+		EDDEF8201B21BF700047CF6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDDEF8211B21BF700047CF6E /* Info.plist */,
+				EDDEF8221B21BF700047CF6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDDEF81C1B21BF700047CF6E /* VTVolumeButtonsObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDDEF8401B21BF700047CF6E /* Build configuration list for PBXNativeTarget "VTVolumeButtonsObserver" */;
+			buildPhases = (
+				EDDEF8191B21BF700047CF6E /* Sources */,
+				EDDEF81A1B21BF700047CF6E /* Frameworks */,
+				EDDEF81B1B21BF700047CF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VTVolumeButtonsObserver;
+			productName = VTVolumeButtonsObserver;
+			productReference = EDDEF81D1B21BF700047CF6E /* VTVolumeButtonsObserver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDDEF8151B21BF700047CF6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Vitaly Timofeev";
+				TargetAttributes = {
+					EDDEF81C1B21BF700047CF6E = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = EDDEF8181B21BF700047CF6E /* Build configuration list for PBXProject "VTVolumeButtonsObserver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDDEF8141B21BF700047CF6E;
+			productRefGroup = EDDEF81E1B21BF700047CF6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDDEF81C1B21BF700047CF6E /* VTVolumeButtonsObserver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDDEF81B1B21BF700047CF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDEF82E1B21BF700047CF6E /* Images.xcassets in Resources */,
+				EDDEF8471B21C0E10047CF6E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDDEF8191B21BF700047CF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDEF8261B21BF700047CF6E /* AppDelegate.m in Sources */,
+				EDDEF8231B21BF700047CF6E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EDDEF83E1B21BF700047CF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDDEF83F1B21BF700047CF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDDEF8411B21BF700047CF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VTVolumeButtonsObserver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDDEF8421B21BF700047CF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VTVolumeButtonsObserver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDDEF8181B21BF700047CF6E /* Build configuration list for PBXProject "VTVolumeButtonsObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDEF83E1B21BF700047CF6E /* Debug */,
+				EDDEF83F1B21BF700047CF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDDEF8401B21BF700047CF6E /* Build configuration list for PBXNativeTarget "VTVolumeButtonsObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDEF8411B21BF700047CF6E /* Debug */,
+				EDDEF8421B21BF700047CF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDDEF8151B21BF700047CF6E /* Project object */;
+}
