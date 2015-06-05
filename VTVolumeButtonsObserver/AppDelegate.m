@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "VTVolumeButtonsObserver.h"
 
 @interface AppDelegate ()
+
+@property (strong, nonatomic) VTVolumeButtonsObserver *observer;
 
 @end
 
@@ -18,11 +21,35 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     UIViewController *viewController = [UIViewController new];
+    UILabel *promptLabel = [UILabel new];
+    promptLabel.translatesAutoresizingMaskIntoConstraints = NO;
+    promptLabel.text = @"Push volume buttons!";
+    promptLabel.textAlignment = NSTextAlignmentCenter;
+    [viewController.view addSubview:promptLabel];
+    [viewController.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[promptLabel]|" options:kNilOptions metrics:nil views:@{@"promptLabel" : promptLabel}]];
+    [viewController.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[promptLabel]|" options:kNilOptions metrics:nil views:@{@"promptLabel" : promptLabel}]];
     viewController.view.backgroundColor = [UIColor whiteColor];
     window.rootViewController = viewController;
     self.window = window;
     [self.window makeKeyAndVisible];
+    
+    __weak typeof (self) welf = self;
+    self.observer = [VTVolumeButtonsObserver observerWithUpButtonBlock:^{
+        [welf showAlertWithUpButton:YES];
+    } downButtonBlock:^{
+        [welf showAlertWithUpButton:NO];
+    }];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        welf.observer = nil;
+    });
+    
     return YES;
+}
+
+- (void)showAlertWithUpButton:(BOOL)isUpButton
+{
+    [[[UIAlertView alloc] initWithTitle:(isUpButton ? @"Up" : @"Down") message:nil delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
